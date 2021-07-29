@@ -23,7 +23,9 @@ data=data[fil,]
 # Columns as factors
 meta$Treatment <- as.factor(meta$Treatment)
 meta$Time <- as.factor(meta$Time)
-data = sapply(data, as.integer)
+genes = rownames(data)
+data = sapply(data[], as.integer)
+rownames(data) = genes
 
 # Variance Stabilizing Transformation 
 dds=DESeqDataSetFromMatrix(countData = data,
