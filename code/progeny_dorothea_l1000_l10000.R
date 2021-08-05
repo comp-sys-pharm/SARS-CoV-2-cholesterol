@@ -1,4 +1,4 @@
-setwd("~/projects/SARS-CoV-2-repurposing/code/")
+setwd("~/projects/comp-sys-pharm/SARS-CoV-2-cholesterol/code/")
 
 library(dorothea)
 library(bcellViper)
@@ -98,7 +98,7 @@ calculate_pathway_activities <- function(filename){
 
 
 
-#calculate_tf_activities('lm_gene')
-#calculate_tf_activities('bing_gene')
-#calculate_pathway_activities('lm_gene')
+calculate_tf_activities('lm_gene')
+calculate_tf_activities('bing_gene')
+calculate_pathway_activities('lm_gene')
 calculate_pathway_activities('bing_gene')
