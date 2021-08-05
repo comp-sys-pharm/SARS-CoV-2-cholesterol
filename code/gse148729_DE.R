@@ -49,10 +49,14 @@ de_analysis <- function(control, virus, time){
   meta_temp$TreatmentTime <- as.factor(meta_temp$TreatmentTime)
   data_temp=data[,rownames(meta_temp)]
 
+  
   # DE analysis
   dds=DESeqDataSetFromMatrix(countData = data_temp,
                              colData = meta_temp,
                              design = ~ TreatmentTime)
+  dds$TreatmentTime = relevel(dds$TreatmentTime, ref=paste0(control, '_', time))
+  
+  
   dds=DESeq(dds,parallel = T)
   # Save results
   result = results(dds)[!is.na(results(dds)$stat),]
