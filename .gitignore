@@ -3,3 +3,5 @@ data/*
 results/*
 *checkpoint.ipynb
 figures/*
+.Rhistory
+.RDataTmp
