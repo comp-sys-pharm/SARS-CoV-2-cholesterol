@@ -4,7 +4,7 @@ setwd("~/projects/comp-sys-pharm/SARS-CoV-2-cholesterol/code/")
 library(biomaRt)
 
 OUTFILE='../data/gse148729/gse148729_name_conversion.csv'
-data=read.csv('../data/gse148729/GSE148729_Calu3_totalRNA_readcounts.tsv',
+data=read.csv('../data/gse148729/GSE148729_Calu3_totalRNA_readcounts.txt',
               header=T,stringsAsFactors=FALSE,sep='\t',row.names = 1)
 genelist=sapply(strsplit(rownames(data), "[.]"), head, 1)
 
