@@ -5,3 +5,4 @@ results/*
 figures/*
 .Rhistory
 .RDataTmp
+!/figures/schematic/sars_chol_biorender_final.png
