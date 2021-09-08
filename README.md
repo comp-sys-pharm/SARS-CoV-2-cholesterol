@@ -10,14 +10,15 @@ To address this question, we analysed gene expression data from in vitro SARS-Co
 Our results can help to more effectively repurpose approved drugs against SARS-CoV-2, and also highlights key mechanisms behind their antiviral effect. 
 
 <br/>
-<div style="text-align:center;"><img style="" src="https://github.com/comp-sys-pharm/SARS-CoV-2-cholesterol/raw/main/figures/schematic/sars_chol_biorender_final.png" alt="Graphical abstract" width="50%"/></div>
+<p align="center">
+<img style="" src="https://github.com/comp-sys-pharm/SARS-CoV-2-cholesterol/raw/main/figures/schematic/sars_chol_biorender_final.png" alt="Graphical abstract" width="50%"/></p>
 
 
-<div style="text-align: center;">
+<p align="center">
 
 *Graphical abstract: Schematic figure of the hypothesis that antiviral drugs block virus entry into cells by cholesterol depletion from plasma membrane, and are leading to a compensatory increased SREBF1/2 activity.*
 
-</div>
+</p>
 </br>
 
 ### Description of the analysis
