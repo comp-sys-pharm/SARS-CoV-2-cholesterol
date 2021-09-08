@@ -9,7 +9,9 @@ Comparing SARS-CoV-2 infection-induced gene expression signatures to drug treatm
 To address this question, we analysed gene expression data from in vitro SARS-CoV-2 infected cell lines, and gene expression signatures of drugs showing anti-SARS-CoV-2 activity. Our extensive functional genomic analysis showed that both infection and treatment with in vitro effective drugs leads to activation of antiviral pathways like NFkB and JAK-STAT. Based on the similarity - and not inverse similarity - between drug and infection-induced gene expression signatures, we were able to predict the in vitro antiviral activity of drugs. We also identified SREBF1/2, key regulators of lipid metabolising enzymes, as the most activated transcription factors by several in vitro effective antiviral drugs. Using a fluorescently labeled cholesterol sensor, we showed that these drugs decrease the cholesterol levels of plasma-membrane. Supplementing drug-treated cells with cholesterol reversed the in vitro antiviral effect, suggesting the depleting plasma-membrane cholesterol plays a key role in virus inhibitory mechanism.
 Our results can help to more effectively repurpose approved drugs against SARS-CoV-2, and also highlights key mechanisms behind their antiviral effect. 
 
-![Graphical abstract ](https://github.com/comp-sys-pharm/SARS-CoV-2-cholesterol/raw/main/figures/schematic/sars_chol_biorender_final.png)
+
+<img src="https://github.com/comp-sys-pharm/SARS-CoV-2-cholesterol/raw/main/figures/schematic/sars_chol_biorender_final.png" alt="Graphical abstract" width="400"/>
+
 
 *Graphical abstract:* Schematic figure of the hypothesis that antiviral drugs block virus entry into cells by cholesterol depletion from plasma membrane, and are leading to a compensatory increased SREBF1/2 activity.
 
