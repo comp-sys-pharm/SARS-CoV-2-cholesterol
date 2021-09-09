@@ -73,11 +73,11 @@ for i in meta.index:
                  'Laplace', 'Laplace_norm', 'Laplace_std', 'Laplace_std_norm']] = (img.mean(), np.median(img), img.std(), img.max(), img.min(),
                                                 lplc.max(), lplc_norm.max(), lplc.std(), lplc_norm.std())
 
-# Save metadata to expreiments
+# Save metadata
 meta.to_csv(f'{c.path}/{c.meta_name}.csv')
 
 # Filter metadata
-# Filter well (plasmamembrane or cholesteol sensor) and  laplace_norm values
+# Filter well (plasmamembrane or cholesterol sensor) and  laplace_norm values
 fil = (meta['WaveLength'] == 'w2') & (
     meta['Well'].apply(lambda x: x[0] in c.wells_to_filter))
 meta = meta[fil]
@@ -106,8 +106,6 @@ meta_filtered_name = f'exp2a_meta_laplace_std{th}_w2'
 masks_folder = f'{path}/masks_std{th}_a'
 results_name = f'exp2a_results_lp_std{th}_mp'
 ```
-
-
 
 ### Calculating masks using Cellpose library
 
