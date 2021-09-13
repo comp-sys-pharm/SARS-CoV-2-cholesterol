@@ -2,7 +2,7 @@
 ### Analysis code for the publication
 ## Computational drug repurposing against SARS-CoV-2 reveals plasma membrane cholesterol depletion as key factor of antiviral drug activity
 
-Code repository for [Computational drug repurposing against SARS-CoV-2 reveals plasma membrane cholesterol depletion as key factor of antiviral drug activity](https://www.biorxiv.org) on bioRxiv.
+Code repository for [Computational drug repurposing against SARS-CoV-2 reveals plasma membrane cholesterol depletion as key factor of antiviral drug activity](https://www.biorxiv.org/content/10.1101/2021.09.10.459786v1) on bioRxiv.
 ### Abstract
 
 Comparing SARS-CoV-2 infection-induced gene expression signatures to drug treatment-induced gene expression signatures is a promising bioinformatic tool to repurpose existing drugs against SARS-CoV-2. Based on the general hypothesis of signature based drug repurposing, drugs with inverse similarity to a disease signature can reverse disease phenotype, thus can be effective against the investigated disease. However, in case of viral infection diseases, like SARS-CoV-2, infected cells also activate adaptive, antiviral pathways, so the relationship between effective drug and disease signature can be more ambiguous.
