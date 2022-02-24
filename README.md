@@ -41,4 +41,4 @@ Our results can help to more effectively repurpose approved drugs against SARS-C
   -  Carnival_virus_signatures.md
 
 - **Additional analysis with Whole genome Influenza A CRISPR screen and LINCS CRISPR signatures**
-  - 6_Additional_analysis_CRISPR_KO_InfluenzaA_similary
+  - 6_Additional_analysis_CRISPR_KO_InfluenzaA_similary.ipynb
