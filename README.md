@@ -40,3 +40,5 @@ Our results can help to more effectively repurpose approved drugs against SARS-C
 - **CARNIVAL on A549 and CALU-3 cell lines after SARS-CoV-2 infections**
   -  Carnival_virus_signatures.md
 
+- **Additional analysis with Whole genome Influenza A CRISPR screen and LINCS CRISPR signatures**
+  - 6_Additional_analysis_CRISPR_KO_InfluenzaA_similary
